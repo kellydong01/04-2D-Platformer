@@ -24,6 +24,8 @@ Bat Sprite - [Bat sprite](https://opengameart.org/content/bat-sprite)
 
 Abstract Platformer - [Abstract Platformer](https://kenney.nl/assets/abstract-platformer)
 
+Chibi Monsters! - [Chibi Monsters](https://ansimuz.itch.io/grotto-escape-chibi-monsters)
+
 ## Future Development
 
 None
