@@ -22,6 +22,8 @@ Alien-alike enemys - [Enemies from Kenney](https://kenney.nl/assets/platformer-a
 
 Bat Sprite - [Bat sprite](https://opengameart.org/content/bat-sprite)
 
+Abstract Platformer - [Abstract Platformer](https://kenney.nl/assets/abstract-platformer)
+
 ## Future Development
 
 None
