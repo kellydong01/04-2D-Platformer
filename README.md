@@ -20,11 +20,7 @@ TileMap Platform Sprite Sheet - [Scribble Platform TileMap](https://kenney.nl/as
 
 Alien-alike enemys - [Enemies from Kenney](https://kenney.nl/assets/platformer-art-extended-enemies)
 
-Bat Sprite - [Bat sprite](https://opengameart.org/content/bat-sprite)
-
 Abstract Platformer - [Abstract Platformer](https://kenney.nl/assets/abstract-platformer)
-
-Chibi Monsters! - [Chibi Monsters](https://ansimuz.itch.io/grotto-escape-chibi-monsters)
 
 Portal Animation! - [Portal](https://ruxar.itch.io/portal)
 
