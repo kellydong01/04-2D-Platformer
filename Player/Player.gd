@@ -22,6 +22,8 @@ var is_jumping = false
 var double_jumped = false
 var should_direction_flip = true # wether or not player controls (left/right) can flip the player sprite
 
+func _ready():
+	pass
 
 func _physics_process(_delta):
 	velocity.x = clamp(velocity.x,-max_move,max_move)
@@ -33,6 +35,9 @@ func _physics_process(_delta):
 	if is_on_floor():
 		double_jumped = false
 		set_wall_raycasts(true)
+		
+	#if position.y > Global.death_zone:
+	#	queue_free()
 
 func is_moving():
 	if Input.is_action_pressed("left") or Input.is_action_pressed("right"):
