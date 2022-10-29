@@ -24,6 +24,8 @@ Abstract Platformer - [Abstract Platformer](https://kenney.nl/assets/abstract-pl
 
 Portal Animation! - [Portal](https://ruxar.itch.io/portal)
 
+Coins Sprite - [Coins Sprite](https://opengameart.org/content/coins)
+
 ## Future Development
 
 None
