@@ -28,6 +28,8 @@ Coins Sprite - [Coins Sprite](https://opengameart.org/content/coins)
 
 Star Background Music - [Star BGM](https://opengameart.org/content/the-farthest-star)
 
+Coin Collection Sound - [Coin Sound](https://opengameart.org/content/plingy-coin)
+
 ## Future Development
 
 None
