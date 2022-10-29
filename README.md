@@ -30,8 +30,6 @@ Star Background Music - [Star BGM](https://opengameart.org/content/the-farthest-
 
 Coin Collection Sound - [Coin Sound](https://opengameart.org/content/plingy-coin)
 
-TheDawn Parallax Background - [Parallax TheDawn](https://saurabhkgp.itch.io/the-dawn-parallax-background)
-
 ## Future Development
 
 None
