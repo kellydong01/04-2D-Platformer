@@ -38,6 +38,10 @@ Cannon Fire Sound Effect - [BOOM](https://opengameart.org/content/cannon-fire)
 
 In Level Portal Warp Sound Effect - [Teleport](https://opengameart.org/content/teleport)
 
+Gear Sprite - (By Me)
+
+Gear Grinding Sound - [SFX](https://pixabay.com/sound-effects/running-gear-6403/)
+
 ## Future Development
 
 None
