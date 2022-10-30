@@ -15,6 +15,8 @@ func _on_Exit_body_entered(body):
 			var index = Global.levels-1
 			Global.plus_score(time_to_score(Global.time))
 			Global.time = Global.level_time[index]
+		elif nextLevel == 6:
+			pass
 
 func time_to_score(t):
 	var s = int(t * 0.75)

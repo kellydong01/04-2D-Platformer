@@ -1,14 +1,12 @@
 extends Control
 
 
-
 func _ready():
 	update_score()
 	update_time()
 
 func _process(_delta):
 	pass
-
 
 func update_score():
 	$Score.text = "Score: " + str(Global.score)
@@ -20,3 +18,4 @@ func _on_Timer_timeout():
 	Global.time -= 1
 	update_time()
 	#if Global.time <= 0:
+

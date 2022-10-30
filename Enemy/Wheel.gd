@@ -2,7 +2,7 @@ extends Area2D
 
 export var con_left = Vector2(0, 0)
 export var con_right = Vector2(0, 0)
-export var speed = 4
+export var speed = 3.0
 
 func _ready():
 	pass
@@ -17,7 +17,6 @@ func _physics_process(_delta):
 			con = con_right
 		$Move.interpolate_property(self, "position", position, con, speed, Tween.TRANS_LINEAR, Tween.EASE_OUT)
 		$Move.start()
-		
 
 
 func _on_Wheel_body_entered(body):

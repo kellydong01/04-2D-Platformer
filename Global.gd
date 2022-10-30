@@ -1,10 +1,10 @@
 extends Node
 
-var levels = 1
+var levels = 4
 var death_zone = 740
 var score = 0
 var time = 0
-var level_time = [75, 110, 150, 70, 100]
+var level_time = [75, 110, 150, 90, 100]
 
 func _ready():
 	time = level_time[0]

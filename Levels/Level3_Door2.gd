@@ -5,9 +5,9 @@ func _ready():
 	pass
 
 
-func _on_Door1_body_entered(body):
+func _on_Door2_body_entered(body):
 	if body.name == "Player":
-		body.global_position = Vector2(3488, -768)
+		body.global_position = Vector2(160, -1472)
 		$Warp.playing = true
 		yield ($Warp, "finished")
 		$Warp.playing = false
