@@ -16,6 +16,8 @@ The Knight sprite sheets are available from [OcO at itch.io](https://oco.itch.io
 
 The adventurer sprite sheet is avalable from [rvros at itch.io](https://rvros.itch.io/animated-pixel-hero)
 
+~
+
 TileMap Platform Sprite Sheet - [Scribble Platform TileMap](https://kenney.nl/assets/scribble-platformer)
 
 Alien-alike enemys - [Enemies from Kenney](https://kenney.nl/assets/platformer-art-extended-enemies)
