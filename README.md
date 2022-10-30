@@ -30,6 +30,10 @@ Star Background Music - [Star BGM](https://opengameart.org/content/the-farthest-
 
 Coin Collection Sound - [Coin Sound](https://opengameart.org/content/plingy-coin)
 
+Turret Sprite - [Turret](https://opengameart.org/content/tower-defence-basic-towers)
+
+Bullet Sprite - [Bullet](https://opengameart.org/content/pixel-bullet)
+
 ## Future Development
 
 None
