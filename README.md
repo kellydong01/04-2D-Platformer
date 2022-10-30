@@ -34,6 +34,10 @@ Turret Sprite - [Turret](https://opengameart.org/content/tower-defence-basic-tow
 
 Bullet Sprite - [Bullet](https://opengameart.org/content/pixel-bullet)
 
+Cannon Fire Sound Effect - [BOOM](https://opengameart.org/content/cannon-fire)
+
+
+
 ## Future Development
 
 None
