@@ -10,11 +10,6 @@
 [ext_resource path="res://StateMachine/Moving_and_Jumping.gd" type="Script" id=8]
 [ext_resource path="res://Player/Player.gd" type="Script" id=9]
 
-[sub_resource type="AtlasTexture" id=1]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 0, 0, 32, 70 )
-
 [sub_resource type="AtlasTexture" id=11]
 flags = 4
 atlas = ExtResource( 1 )
@@ -29,6 +24,11 @@ region = Rect2( 256, 70, 32, 70 )
 flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 288, 70, 32, 70 )
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 32, 70 )
 
 [sub_resource type="AtlasTexture" id=8]
 flags = 4
@@ -77,9 +77,9 @@ region = Rect2( 192, 0, 32, 70 )
 
 [sub_resource type="SpriteFrames" id=15]
 animations = [ {
-"frames": [ SubResource( 1 ) ],
+"frames": [  ],
 "loop": true,
-"name": "Idle",
+"name": "Attacking",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ],
@@ -87,9 +87,9 @@ animations = [ {
 "name": "Falling",
 "speed": 5.0
 }, {
-"frames": [  ],
+"frames": [ SubResource( 1 ) ],
 "loop": true,
-"name": "Attacking",
+"name": "Idle",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 8 ), SubResource( 9 ), SubResource( 10 ) ],
@@ -106,7 +106,7 @@ animations = [ {
 [sub_resource type="RectangleShape2D" id=16]
 extents = Vector2( 8, 23 )
 
-[node name="Player" type="KinematicBody2D"]
+[node name="Player" type="KinematicBody2D" groups=["Player"]]
 position = Vector2( 200, 200 )
 script = ExtResource( 9 )
 

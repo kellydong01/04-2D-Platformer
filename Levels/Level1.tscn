@@ -1,12 +1,15 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=25 format=2]
 
-[ext_resource path="res://Enemy/Enemy_Container.gd" type="Script" id=1]
+[ext_resource path="res://Enemy/ECL1.gd" type="Script" id=1]
 [ext_resource path="res://Enemy/Enemy2.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Levels/Exit.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Player/Player_Container.gd" type="Script" id=4]
 [ext_resource path="res://Player/Camera.gd" type="Script" id=5]
 [ext_resource path="res://icon.png" type="Texture" id=6]
 [ext_resource path="res://Assets/scribble_sheet.png" type="Texture" id=7]
+[ext_resource path="res://Coins/Coins_T1.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Coins/Coins_T2.tscn" type="PackedScene" id=9]
+[ext_resource path="res://UI/UI.tscn" type="PackedScene" id=10]
 
 [sub_resource type="NavigationPolygon" id=13]
 vertices = PoolVector2Array( 1472, 192, 2432, 320, 2304, 320, 1280, 256, 1408, 192, 2816, 448, 2752, 448, 1792, 384, 2304, 384, 3392, 128, 3328, 128, 1728, 0, 1728, -64, 1856, 192, 1984, 192, 2880, 384, 2816, 384, 3392, 512, 3712, 576, 3008, 576, 3328, 512, 1280, 192, 1408, 128, 3712, -640, 64, -640, 3008, 512, 1088, 192, 1088, 128, 1216, 192, 2432, 384, 960, 0, 1024, 128, 768, 192, 640, 192, 640, 64, 768, 0, 1536, 320, 1536, 384, 1344, 384, 896, 320, 1216, 256, 2240, 192, 2240, 128, 2176, 128, 1536, -64, 1536, 0, 960, -64, 2176, 192, 2048, 192, 2048, 128, 1984, 128, 2944, 512, 2944, 448, 2880, 448, 2752, 512, 2688, 512, 2048, 448, 2688, 576, 2112, 576, 2112, 512, 2048, 512, 1856, 448, 1856, 512, 1792, 512, 1792, 576, 1472, 576, 1472, 512, 1408, 512, 1408, 448, 1344, 448, 1216, 384, 1216, 448, 1152, 448, 320, 320, 768, 320, 1152, 512, 1088, 512, 320, 384, 1088, 576, 64, 576, 64, 384, 64, 320, 576, 64, 576, 192, 768, -64, 1856, 128, 1024, 192, 1792, 128, 1792, 192, 1472, 128, 896, 192, 1792, 320 )
@@ -253,6 +256,7 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 [node name="Nav2D" type="Navigation2D" parent="."]
 
 [node name="NavigationPolygonInstance" type="NavigationPolygonInstance" parent="Nav2D"]
+visible = false
 navpoly = SubResource( 13 )
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -303,3 +307,49 @@ drag_margin_bottom = 0.1
 script = ExtResource( 5 )
 
 [node name="Exit" parent="." instance=ExtResource( 3 )]
+
+[node name="Coins" type="Node2D" parent="."]
+position = Vector2( 608, 32 )
+
+[node name="Coins_T1" parent="Coins" instance=ExtResource( 8 )]
+
+[node name="Coins_T2" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 2304, 384 )
+
+[node name="Coins_T3" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 2176, 384 )
+
+[node name="Coins_T4" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 2752, 512 )
+
+[node name="Coins_T5" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 1056, 256 )
+
+[node name="Coins_T6" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 1344, 384 )
+
+[node name="Coins_T7" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 256, -128 )
+
+[node name="Coins_T8" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 224, 120 )
+
+[node name="Coins_T9" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 704, 320 )
+
+[node name="Coins_T10" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( 640, 320 )
+
+[node name="Coins_T11" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( -520, 376 )
+
+[node name="Coins_T12" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1760, 256 )
+
+[node name="Coins_T13" parent="Coins" instance=ExtResource( 9 )]
+position = Vector2( 1024, -128 )
+
+[node name="Coins_T14" parent="Coins" instance=ExtResource( 8 )]
+position = Vector2( -368, 208 )
+
+[node name="UI" parent="." instance=ExtResource( 10 )]

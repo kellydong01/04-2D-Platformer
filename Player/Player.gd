@@ -36,8 +36,8 @@ func _physics_process(_delta):
 		double_jumped = false
 		set_wall_raycasts(true)
 		
-	#if position.y > Global.death_zone:
-	#	queue_free()
+	if position.y > Global.death_zone:
+		die()
 
 func is_moving():
 	if Input.is_action_pressed("left") or Input.is_action_pressed("right"):
@@ -86,4 +86,5 @@ func set_wall_raycasts(is_enabled):
 	$Wall/Right.enabled = is_enabled
 
 func die():
+	Global.plus_score(-10)
 	queue_free()

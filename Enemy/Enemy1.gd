@@ -2,22 +2,21 @@ extends KinematicBody2D
 
 var player = null
 var nav = null
+var pos = [Vector2(3300, -200), Vector2(1488,488), Vector2(0, 0)]
 
-var speed = 125
+var speed = 0
+var s_list = [125, 80, 120, 150, 100]
 
 func _ready():
 	var lev = Global.levels
-	if lev == 1:
-		position = Vector2(3300, -200)
-	elif lev == 2:
-		var doubleSpawn = [Vector2.ZERO, Vector2.ZERO]
+	position = pos[lev-1]
+	speed = s_list[lev-1]
+
 
 func _physics_process(_delta):
-	if nav == null:
-		nav = get_node_or_null("/root/Game/Nav2D")
-	elif player == null:
-		player = get_node_or_null("/root/Game/Player_Container/Player")
-	else:
+	nav = get_node_or_null("/root/Game/Nav2D")
+	player = get_node_or_null("/root/Game/Player_Container/Player")
+	if nav != null and player != null:
 		var points = nav.get_simple_path(global_position, player.global_position, true)
 		if points.size() > 1:
 			var target = points[1] - global_position
@@ -32,7 +31,6 @@ func _physics_process(_delta):
 			else:
 				$Sprite.flip_h = false
 			var _v = move_and_slide(dir*s, Vector2.ZERO)
-				
 
 func _on_Area2D_body_entered(body):
 	if body.name == "Player":
