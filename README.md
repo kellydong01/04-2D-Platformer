@@ -1,6 +1,6 @@
-# 2D-Platformer-Character
+# 2D-Platformer
 
-A somewhat-generic character (including animations and state machine) appropriate for a 2D platformer built in Godot. Includes test level.
+A simple 2D Platformer game that consists of 5 levels that vary from difficulty and style. Contains basic 'WASD' controls and some standard enemies.
 
 ## Implementation
 
