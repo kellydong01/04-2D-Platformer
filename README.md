@@ -44,6 +44,8 @@ Gear Sprite - (By Me)
 
 Gear Grinding Sound - [SFX](https://pixabay.com/sound-effects/running-gear-6403/)
 
+Parallax Background - [TheDawn Background](https://saurabhkgp.itch.io/the-dawn-parallax-background)
+
 ## Future Development
 
 None
