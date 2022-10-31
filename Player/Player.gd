@@ -87,4 +87,6 @@ func set_wall_raycasts(is_enabled):
 
 func die():
 	Global.plus_score(-10)
+	Global.deaths += 1
+	Global.time -= 3
 	queue_free()

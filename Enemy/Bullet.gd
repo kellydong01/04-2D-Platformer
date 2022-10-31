@@ -13,15 +13,5 @@ func _on_Area2D_body_entered(body):
 		body.die()
 		queue_free()
 
-func save():
-	var save_dict = {
-		"filename" : get_filename(),
-		"parent" : get_parent().get_path(),
-		"pos_x" : position.x,
-		"pos_y" : position.y,
-		"rotation" : rotation
-	}
-	return save_dict
-
 func _on_Timer_timeout():
 	queue_free()

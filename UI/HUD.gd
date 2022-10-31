@@ -17,5 +17,6 @@ func update_time():
 func _on_Timer_timeout():
 	Global.time -= 1
 	update_time()
-	#if Global.time <= 0:
+	if Global.time <= 0:
+		var _scene = get_tree().change_scene("res://UI/End_Screen.tscn")
 
