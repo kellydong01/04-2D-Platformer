@@ -18,7 +18,9 @@ animations = [ {
 [sub_resource type="CircleShape2D" id=17]
 radius = 17.0
 
-[node name="Coins_T2" type="Area2D"]
+[node name="Coins_T2" type="Area2D" groups=["Persist"]]
+collision_layer = 0
+collision_mask = 3
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
@@ -27,7 +29,6 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 16 )
-frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

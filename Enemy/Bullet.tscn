@@ -7,7 +7,7 @@
 radius = 24.0
 height = 32.0
 
-[node name="Bullet" type="KinematicBody2D"]
+[node name="Bullet" type="KinematicBody2D" groups=["Persist"]]
 rotation = 1.57079
 script = ExtResource( 1 )
 

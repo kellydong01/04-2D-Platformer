@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var player = null
 var nav = null
-var pos = [Vector2(3300, -200), Vector2(1488,488), Vector2(0, 0), Vector2(968, 528)]
+var pos = [Vector2(3300, -200), Vector2(1488,488), Vector2(0, 0), Vector2(968, 528), Vector2(104, 80)]
 
 var speed = 0
 var s_list = [125, 80, 120, 95, 100]
