@@ -1,6 +1,6 @@
-# 2D-Platformer-Character
+# 2D-Platformer
 
-A somewhat-generic character (including animations and state machine) appropriate for a 2D platformer built in Godot. Includes test level.
+A simple 2D Platformer game that consists of 5 levels that vary from difficulty and style. Contains basic 'WASD' controls and some standard enemies.
 
 ## Implementation
 
@@ -15,6 +15,8 @@ The warrior sprite sheet is available from [Clembod at itch.io](https://clembod.
 The Knight sprite sheets are available from [OcO at itch.io](https://oco.itch.io/medieval-fantasy-character-pack)
 
 The adventurer sprite sheet is avalable from [rvros at itch.io](https://rvros.itch.io/animated-pixel-hero)
+
+~
 
 TileMap Platform Sprite Sheet - [Scribble Platform TileMap](https://kenney.nl/assets/scribble-platformer)
 
@@ -41,6 +43,8 @@ In Level Portal Warp Sound Effect - [Teleport](https://opengameart.org/content/t
 Gear Sprite - (By Me)
 
 Gear Grinding Sound - [SFX](https://pixabay.com/sound-effects/running-gear-6403/)
+
+Parallax Background - [TheDawn Background](https://saurabhkgp.itch.io/the-dawn-parallax-background)
 
 ## Future Development
 
